@@ -1,5 +1,5 @@
 # Reverse Dictionary
-A literal reverse dictionary. Predicts the word for a given definition.
+A literal reverse english dictionary. Predicts the word for a given definition.
 
 ## How does it work?
 We need to map a sequence of words (Our definition) to a target word. This can be done rather effectively using Recurrent Neural Networks, or its variants (Used cudNN-GRUs here).
